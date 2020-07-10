@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    font-family: 'Indie Flower', cursive, 'Courier New', Courier, monospace;
+    background-image: url("https://thumbs.gfycat.com/PlumpBestAnophelesmosquito-size_restricted.gif");
+    color: #FFFFFF;
+}
+.header {
+    display: flex;
+    flex-direction: column;  
+    flex-wrap: nowrap;
+    align-self: flex-start;
+    width: 100%;
+    height: auto;  
+}
+h1 {
+    align-self: center;
+}
+h2 {
+    align-self: center;
+
+}
+#display {
+    align-self: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    align-self: center;
+    font-size: 250px;
+    animation: stretch 1.5s ease-out 0s alternate infinite none running;
+}
+@keyframes stretch {
+    0% {
+      transform: scale(.3);
+    }
+    100% {
+      transform: scale(1.5);
+    }
+  }
+.displayBoxes {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: -50px;
+}
+#event-key {
+    width: 33.3%;
+    height: auto;
+}
+#event-code {
+    width: 33.3%;
+    height: auto;
+}
+#event-which {
+    width: 33.3%;
+    height: auto;
+}
+h4 {
+    font-size: 33px;
+}
+p {
+    font-size: 33px;
+    font-weight: bold;
+}
